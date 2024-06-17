@@ -1,11 +1,11 @@
 {
   description = "My flake templates using flakelight";
 
-  outputs = {
-    tepmlates = {
+  outputs = { self, ... }: {
+    templates = {
 
-      devShell = {
-        path = ./templates/flake/flake.nix;
+      dev-shell = {
+        path = ./dev-shell;
         description = "A flake template for a generic development shell";
 
       };
