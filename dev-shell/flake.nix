@@ -13,7 +13,7 @@
         with pkgs;
         [
 
-          coreutilsfull
+          coreutils
 
         ];
     };
